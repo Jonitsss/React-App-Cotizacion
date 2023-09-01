@@ -10,7 +10,7 @@ function Cards({data}) {
 
 
     return (
-    <div className='flex justify-center mt-10 gap-2.5'>
+    <div className='flex justify-center mt-10 gap-2.5 cards'>
         <div className='flex flex-col gap-2.5 animate__animated animate__fadeInLeft'>
             <Card title="Dólar Oficial" buy={dolarOficial.value_buy} sell={dolarOficial.value_sell}/>
             <Card title="Dólar Blue" buy={dolarBlue.value_buy} sell={dolarBlue.value_sell}/>
