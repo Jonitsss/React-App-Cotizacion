@@ -1,0 +1,16 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+
+}
+
+body {
+  margin: 0;
+  background-color: #23262D;
+  color: #C8D1D8;
+  font-family: 'Roboto', sans-serif;
+}
